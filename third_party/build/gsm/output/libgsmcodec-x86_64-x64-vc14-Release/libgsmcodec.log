@@ -1,0 +1,50 @@
+﻿生成启动时间为 2018/1/9 15:51:04。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\gsm\libgsmcodec.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I../../gsm/inc /Zi /nologo /W3 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libgsmcodec-x86_64-x64-vc14-Release\\" /Fd".\output\libgsmcodec-x86_64-x64-vc14-Release\libgsmcodec.pdb" /FR".\output\libgsmcodec-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\..\gsm\src\add.c ..\..\gsm\src\code.c ..\..\gsm\src\debug.c ..\..\gsm\src\decode.c ..\..\gsm\src\gsm_create.c ..\..\gsm\src\gsm_decode.c ..\..\gsm\src\gsm_destroy.c ..\..\gsm\src\gsm_encode.c ..\..\gsm\src\gsm_explode.c ..\..\gsm\src\gsm_implode.c ..\..\gsm\src\gsm_option.c ..\..\gsm\src\gsm_print.c ..\..\gsm\src\long_term.c ..\..\gsm\src\lpc.c ..\..\gsm\src\preprocess.c ..\..\gsm\src\rpe.c ..\..\gsm\src\short_term.c ..\..\gsm\src\table.c
+         add.c
+         code.c
+         debug.c
+         decode.c
+         gsm_create.c
+         gsm_decode.c
+         gsm_destroy.c
+         gsm_encode.c
+         gsm_explode.c
+         gsm_implode.c
+         gsm_option.c
+         gsm_print.c
+         long_term.c
+         lpc.c
+         preprocess.c
+         rpe.c
+         short_term.c
+         table.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libgsmcodec-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libgsmcodec-x86_64-x64-vc14-Release\add.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\code.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\debug.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\decode.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_create.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_decode.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_destroy.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_encode.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_explode.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_implode.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_option.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_print.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\long_term.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\lpc.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\preprocess.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\rpe.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\short_term.obj"
+         ".\output\libgsmcodec-x86_64-x64-vc14-Release\table.obj"
+         libgsmcodec.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\gsm\..\..\lib\libgsmcodec-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libgsmcodec-x86_64-x64-vc14-Release.bsc" ".\output\libgsmcodec-x86_64-x64-vc14-Release\add.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\code.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\debug.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\decode.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_create.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_decode.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_destroy.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_encode.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_explode.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_implode.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_option.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\gsm_print.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\long_term.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\lpc.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\preprocess.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\rpe.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\short_term.sbr" ".\output\libgsmcodec-x86_64-x64-vc14-Release\table.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\gsm\libgsmcodec.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.50

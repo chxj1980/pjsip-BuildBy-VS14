@@ -1,0 +1,59 @@
+﻿生成启动时间为 2018/1/9 15:50:37。
+     1>项目“E:\code\pjproject-2.7.1\pjmedia\build\pjmedia_codec.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I../../third_party/speex/include /I../../third_party /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjmedia_codec-x86_64-x64-vc14-Release\\" /Fd".\output\pjmedia_codec-x86_64-x64-vc14-Release\pjmedia_codec.pdb" /FR".\output\pjmedia_codec-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt "..\src\pjmedia-codec\amr_sdp_match.c" "..\src\pjmedia-codec\audio_codecs.c" "..\src\pjmedia-codec\bcg729.c" "..\src\pjmedia-codec\ffmpeg_vid_codecs.c" "..\src\pjmedia-codec\g722.c" "..\src\pjmedia-codec\g7221.c" "..\src\pjmedia-codec\g7221_sdp_match.c" "..\src\pjmedia-codec\g722\g722_dec.c" "..\src\pjmedia-codec\g722\g722_enc.c" "..\src\pjmedia-codec\gsm.c" "..\src\pjmedia-codec\h263_packetizer.c" "..\src\pjmedia-codec\h264_packetizer.c" "..\src\pjmedia-codec\ilbc.c" "..\src\pjmedia-codec\ipp_codecs.c" "..\src\pjmedia-codec\l16.c" "..\src\pjmedia-codec\opencore_amr.c" "..\src\pjmedia-codec\opus.c" "..\src\pjmedia-codec\passthrough.c" "..\src\pjmedia-codec\silk.c" "..\src\pjmedia-codec\speex_codec.c"
+         amr_sdp_match.c
+         audio_codecs.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         bcg729.c
+         ffmpeg_vid_codecs.c
+         g722.c
+         g7221.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         g7221_sdp_match.c
+         g722_dec.c
+         g722_enc.c
+         gsm.c
+         h263_packetizer.c
+         h264_packetizer.c
+         ilbc.c
+         ipp_codecs.c
+         l16.c
+         opencore_amr.c
+         opus.c
+         passthrough.c
+         silk.c
+         speex_codec.c
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I../../third_party/speex/include /I../../third_party /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjmedia_codec-x86_64-x64-vc14-Release\\" /Fd".\output\pjmedia_codec-x86_64-x64-vc14-Release\pjmedia_codec.pdb" /FR".\output\pjmedia_codec-x86_64-x64-vc14-Release\\" /Gd /TP /errorReport:prompt "..\src\pjmedia-codec\openh264.cpp"
+         openh264.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjmedia-codec-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjmedia_codec-x86_64-x64-vc14-Release\amr_sdp_match.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\audio_codecs.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\bcg729.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\ffmpeg_vid_codecs.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g722.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g7221.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g7221_sdp_match.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g722_dec.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g722_enc.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\gsm.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\h263_packetizer.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\h264_packetizer.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\ilbc.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\ipp_codecs.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\l16.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\opencore_amr.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\openh264.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\opus.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\passthrough.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\silk.obj"
+         ".\output\pjmedia_codec-x86_64-x64-vc14-Release\speex_codec.obj"
+         pjmedia_codec.vcxproj -> E:\code\pjproject-2.7.1\pjmedia\build\..\lib\pjmedia-codec-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjmedia-codec-x86_64-x64-vc14-Release.bsc" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\amr_sdp_match.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\audio_codecs.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\bcg729.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\ffmpeg_vid_codecs.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g722.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g7221.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g7221_sdp_match.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g722_dec.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\g722_enc.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\gsm.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\h263_packetizer.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\h264_packetizer.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\ilbc.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\ipp_codecs.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\l16.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\opencore_amr.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\openh264.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\opus.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\passthrough.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\silk.sbr" ".\output\pjmedia_codec-x86_64-x64-vc14-Release\speex_codec.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjmedia\build\pjmedia_codec.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.21

@@ -1,0 +1,72 @@
+﻿生成启动时间为 2018/1/9 15:51:27。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\yuv\libyuv.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I../../yuv/include /I../../../pjlib/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D _WINDOWS /D HAVE_CONFIG_H /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libyuv-x86_64-x64-vc14-Release\\" /Fd".\output\libyuv-x86_64-x64-vc14-Release\libyuv.pdb" /FR".\output\libyuv-x86_64-x64-vc14-Release\\" /Gd /TP /errorReport:prompt /wd4100 /wd4244 /wd4127 ..\..\yuv\source\compare.cc ..\..\yuv\source\compare_common.cc ..\..\yuv\source\compare_win.cc ..\..\yuv\source\convert.cc ..\..\yuv\source\convert_argb.cc ..\..\yuv\source\convert_from.cc ..\..\yuv\source\convert_from_argb.cc ..\..\yuv\source\convert_jpeg.cc ..\..\yuv\source\convert_to_argb.cc ..\..\yuv\source\convert_to_i420.cc ..\..\yuv\source\cpu_id.cc ..\..\yuv\source\mjpeg_decoder.cc ..\..\yuv\source\mjpeg_validate.cc ..\..\yuv\source\planar_functions.cc ..\..\yuv\source\rotate.cc ..\..\yuv\source\rotate_any.cc ..\..\yuv\source\rotate_argb.cc ..\..\yuv\source\rotate_common.cc ..\..\yuv\source\rotate_win.cc ..\..\yuv\source\row_any.cc ..\..\yuv\source\row_common.cc ..\..\yuv\source\row_win.cc ..\..\yuv\source\scale.cc ..\..\yuv\source\scale_any.cc ..\..\yuv\source\scale_argb.cc ..\..\yuv\source\scale_common.cc ..\..\yuv\source\scale_win.cc ..\..\yuv\source\video_common.cc
+         compare.cc
+         compare_common.cc
+         compare_win.cc
+         convert.cc
+         convert_argb.cc
+         convert_from.cc
+         convert_from_argb.cc
+         convert_jpeg.cc
+         convert_to_argb.cc
+         convert_to_i420.cc
+         cpu_id.cc
+         mjpeg_decoder.cc
+         mjpeg_validate.cc
+         planar_functions.cc
+         rotate.cc
+         rotate_any.cc
+         rotate_argb.cc
+         rotate_common.cc
+         rotate_win.cc
+         row_any.cc
+         正在生成代码...
+         正在编译...
+         row_common.cc
+         row_win.cc
+         scale.cc
+         scale_any.cc
+         scale_argb.cc
+         scale_common.cc
+         scale_win.cc
+         video_common.cc
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libyuv-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libyuv-x86_64-x64-vc14-Release\compare.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\compare_common.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\compare_win.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\convert.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\convert_argb.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\convert_from.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\convert_from_argb.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\convert_jpeg.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\convert_to_argb.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\convert_to_i420.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\cpu_id.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\mjpeg_decoder.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\mjpeg_validate.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\planar_functions.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\rotate.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\rotate_any.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\rotate_argb.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\rotate_common.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\rotate_win.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\row_any.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\row_common.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\row_win.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\scale.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\scale_any.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\scale_argb.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\scale_common.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\scale_win.obj"
+         ".\output\libyuv-x86_64-x64-vc14-Release\video_common.obj"
+         libyuv.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\yuv\..\..\lib\libyuv-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libyuv-x86_64-x64-vc14-Release.bsc" ".\output\libyuv-x86_64-x64-vc14-Release\compare.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\compare_common.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\compare_win.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\convert.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\convert_argb.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\convert_from.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\convert_from_argb.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\convert_jpeg.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\convert_to_argb.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\convert_to_i420.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\cpu_id.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\mjpeg_decoder.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\mjpeg_validate.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\planar_functions.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\rotate.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\rotate_any.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\rotate_argb.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\rotate_common.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\rotate_win.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\row_any.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\row_common.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\row_win.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\scale.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\scale_any.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\scale_argb.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\scale_common.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\scale_win.sbr" ".\output\libyuv-x86_64-x64-vc14-Release\video_common.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\yuv\libyuv.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.03

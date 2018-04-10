@@ -1,0 +1,31 @@
+﻿生成启动时间为 2018/1/9 15:51:08。
+     1>项目“E:\code\pjproject-2.7.1\pjmedia\build\pjmedia_videodev.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /I../../third_party/BaseClasses /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjmedia_videodev-x86_64-x64-vc14-Release\\" /Fd".\output\pjmedia_videodev-x86_64-x64-vc14-Release\pjmedia_videodev.pdb" /FR".\output\pjmedia_videodev-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt "..\src\pjmedia-videodev\avi_dev.c" "..\src\pjmedia-videodev\colorbar_dev.c" "..\src\pjmedia-videodev\dshow_dev.c" "..\src\pjmedia-videodev\errno.c" "..\src\pjmedia-videodev\ffmpeg_dev.c" "..\src\pjmedia-videodev\sdl_dev.c" "..\src\pjmedia-videodev\videodev.c"
+         avi_dev.c
+         colorbar_dev.c
+         dshow_dev.c
+         errno.c
+         ffmpeg_dev.c
+         sdl_dev.c
+         videodev.c
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /I../../third_party/BaseClasses /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjmedia_videodev-x86_64-x64-vc14-Release\\" /Fd".\output\pjmedia_videodev-x86_64-x64-vc14-Release\pjmedia_videodev.pdb" /FR".\output\pjmedia_videodev-x86_64-x64-vc14-Release\\" /Gd /TP /errorReport:prompt "..\src\pjmedia-videodev\dshowclasses.cpp"
+         dshowclasses.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjmedia-videodev-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\avi_dev.obj"
+         ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\colorbar_dev.obj"
+         ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\dshowclasses.obj"
+         ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\dshow_dev.obj"
+         ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\errno.obj"
+         ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\ffmpeg_dev.obj"
+         ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\sdl_dev.obj"
+         ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\videodev.obj"
+         pjmedia_videodev.vcxproj -> E:\code\pjproject-2.7.1\pjmedia\build\..\lib\pjmedia-videodev-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjmedia-videodev-x86_64-x64-vc14-Release.bsc" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\avi_dev.sbr" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\colorbar_dev.sbr" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\dshowclasses.sbr" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\dshow_dev.sbr" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\errno.sbr" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\ffmpeg_dev.sbr" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\sdl_dev.sbr" ".\output\pjmedia_videodev-x86_64-x64-vc14-Release\videodev.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjmedia\build\pjmedia_videodev.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.18

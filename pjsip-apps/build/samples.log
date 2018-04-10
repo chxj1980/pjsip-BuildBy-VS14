@@ -1,0 +1,9 @@
+﻿生成启动时间为 2018/1/9 18:21:31。
+     1>项目“E:\code\pjproject-2.7.1\pjsip-apps\build\samples.vcxproj”在节点 2 上(Build 个目标)。
+     1>Build:
+         nmake /NOLOGO /S /f Samples-vc.mak BUILD_MODE=release VC_VER=14 ARCH=win64
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip-apps\build\samples.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.37

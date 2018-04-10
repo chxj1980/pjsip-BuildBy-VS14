@@ -1,0 +1,55 @@
+﻿生成启动时间为 2018/1/9 15:52:13。
+     1>项目“E:\code\pjproject-2.7.1\pjnath\build\pjnath_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /Zi /nologo /W4 /WX- /sdl- /O2 /D _CONSOLE /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjnath_test-x86_64-x64-vc14-Release\\" /Fd".\output\pjnath_test-x86_64-x64-vc14-Release\vc140.pdb" /FR".\output\pjnath_test-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt "..\src\pjnath-test\concur_test.c" "..\src\pjnath-test\ice_test.c" "..\src\pjnath-test\main.c" "..\src\pjnath-test\server.c" "..\src\pjnath-test\sess_auth.c" "..\src\pjnath-test\stun.c" "..\src\pjnath-test\stun_sock_test.c" "..\src\pjnath-test\test.c" "..\src\pjnath-test\turn_sock_test.c"
+         concur_test.c
+         ice_test.c
+         main.c
+         server.c
+         sess_auth.c
+         stun.c
+         stun_sock_test.c
+         test.c
+         turn_sock_test.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\pjnath-test-x86_64-x64-vc14-Release.exe" /INCREMENTAL:NO /NOLOGO netapi32.lib mswsock.lib ws2_32.lib odbc32.lib odbccp32.lib ole32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\pjnath-test-x86_64-x64-vc14-Release.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\pjnath-test-x86_64-x64-vc14-Release.lib" /MACHINE:X64 ".\output\pjnath_test-x86_64-x64-vc14-Release\concur_test.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\ice_test.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\main.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\server.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\sess_auth.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\stun.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\stun_sock_test.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\test.obj"
+         ".\output\pjnath_test-x86_64-x64-vc14-Release\turn_sock_test.obj"
+         "E:\code\pjproject-2.7.1\pjlib-util\lib\pjlib-util-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjlib\lib\pjlib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-audiodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-videodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjnath\lib\pjnath-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-core-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-simple-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-ua-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua2-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libbaseclasses-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libg7221codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libgsmcodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libilbccodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libmilenage-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libresample-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libspeex-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libsrtp-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libwebrtc-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libyuv-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\lib\libpjproject-x86_64-x64-vc14-Release.lib"
+         pjnath_test.vcxproj -> E:\code\pjproject-2.7.1\pjnath\build\..\bin\pjnath-test-x86_64-x64-vc14-Release.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\bin\pjnath-test-x86_64-x64-vc14-Release.bsc" ".\output\pjnath_test-x86_64-x64-vc14-Release\concur_test.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\ice_test.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\main.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\server.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\sess_auth.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\stun.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\stun_sock_test.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\test.sbr" ".\output\pjnath_test-x86_64-x64-vc14-Release\turn_sock_test.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjnath\build\pjnath_test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.86

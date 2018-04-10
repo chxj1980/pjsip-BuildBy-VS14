@@ -1,0 +1,77 @@
+﻿生成启动时间为 2018/1/9 15:51:56。
+     1>项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjmedia/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _CONSOLE /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjsip_test-x86_64-x64-vc14-Release\\" /Fd".\output\pjsip_test-x86_64-x64-vc14-Release\vc140.pdb" /FR".\output\pjsip_test-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\src\test\dlg_core_test.c ..\src\test\dns_test.c ..\src\test\inv_offer_answer_test.c ..\src\test\main.c ..\src\test\msg_err_test.c ..\src\test\msg_logger.c ..\src\test\msg_test.c ..\src\test\multipart_test.c ..\src\test\regc_test.c ..\src\test\test.c ..\src\test\transport_loop_test.c ..\src\test\transport_tcp_test.c ..\src\test\transport_test.c ..\src\test\transport_udp_test.c ..\src\test\tsx_basic_test.c ..\src\test\tsx_bench.c ..\src\test\tsx_uac_test.c ..\src\test\tsx_uas_test.c ..\src\test\txdata_test.c ..\src\test\uri_test.c
+         dlg_core_test.c
+         dns_test.c
+         inv_offer_answer_test.c
+         main.c
+         msg_err_test.c
+         msg_logger.c
+         msg_test.c
+         multipart_test.c
+         regc_test.c
+         test.c
+         transport_loop_test.c
+         transport_tcp_test.c
+         transport_test.c
+         transport_udp_test.c
+         tsx_basic_test.c
+         tsx_bench.c
+         tsx_uac_test.c
+         tsx_uas_test.c
+         txdata_test.c
+         uri_test.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\pjsip-test-x86_64-x64-vc14-Release.exe" /INCREMENTAL:NO /NOLOGO dsound.lib dxguid.lib netapi32.lib mswsock.lib ws2_32.lib odbc32.lib odbccp32.lib ole32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\pjsip-test-x86_64-x64-vc14-Release.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\pjsip-test-x86_64-x64-vc14-Release.lib" /MACHINE:X64 ".\output\pjsip_test-x86_64-x64-vc14-Release\dlg_core_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\dns_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\inv_offer_answer_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\main.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\msg_err_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\msg_logger.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\msg_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\multipart_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\regc_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_loop_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_tcp_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_udp_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_basic_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_bench.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_uac_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_uas_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\txdata_test.obj"
+         ".\output\pjsip_test-x86_64-x64-vc14-Release\uri_test.obj"
+         "E:\code\pjproject-2.7.1\pjlib-util\lib\pjlib-util-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjlib\lib\pjlib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-audiodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-videodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjnath\lib\pjnath-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-core-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-simple-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-ua-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua2-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libbaseclasses-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libg7221codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libgsmcodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libilbccodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libmilenage-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libresample-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libspeex-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libsrtp-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libwebrtc-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libyuv-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\lib\libpjproject-x86_64-x64-vc14-Release.lib"
+         pjsip_test.vcxproj -> E:\code\pjproject-2.7.1\pjsip\build\..\bin\pjsip-test-x86_64-x64-vc14-Release.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\bin\pjsip-test-x86_64-x64-vc14-Release.bsc" ".\output\pjsip_test-x86_64-x64-vc14-Release\dlg_core_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\dns_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\inv_offer_answer_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\main.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\msg_err_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\msg_logger.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\msg_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\multipart_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\regc_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_loop_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_tcp_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\transport_udp_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_basic_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_bench.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_uac_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\tsx_uas_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\txdata_test.sbr" ".\output\pjsip_test-x86_64-x64-vc14-Release\uri_test.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.01

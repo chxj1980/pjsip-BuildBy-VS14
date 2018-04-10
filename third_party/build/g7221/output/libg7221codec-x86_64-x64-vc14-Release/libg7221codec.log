@@ -1,0 +1,64 @@
+﻿生成启动时间为 2018/1/9 15:50:35。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\g7221\libg7221codec.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../.. /I../../g7221/common /I../../../pjlib/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libg7221codec-x86_64-x64-vc14-Release\\" /Fd".\output\libg7221codec-x86_64-x64-vc14-Release\libg7221codec.pdb" /FR".\output\libg7221codec-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\..\g7221\common\basic_op.c ..\..\g7221\common\common.c ..\..\g7221\common\huff_tab.c ..\..\g7221\common\tables.c ..\..\g7221\decode\coef2sam.c ..\..\g7221\decode\dct4_s.c ..\..\g7221\decode\decoder.c ..\..\g7221\encode\dct4_a.c ..\..\g7221\encode\encoder.c ..\..\g7221\encode\sam2coef.c
+         basic_op.c
+         common.c
+     1>..\..\g7221\common\common.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\common\huff_def.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\common\huff_tab.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\common\tables.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         huff_tab.c
+     1>..\..\g7221\common\huff_tab.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\common\huff_def.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         tables.c
+     1>..\..\g7221\common\tables.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         coef2sam.c
+     1>..\..\g7221\decode\coef2sam.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\tables.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dct4_s.c
+     1>..\..\g7221\decode\dct4_s.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\decode\dct4_s.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         decoder.c
+     1>..\..\g7221\decode\decoder.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\tables.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\huff_def.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dct4_a.c
+     1>..\..\g7221\encode\dct4_a.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\code\pjproject-2.7.1\third_party\g7221\encode\dct4_a.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         encoder.c
+     1>..\..\g7221\encode\encoder.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\huff_def.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\tables.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         sam2coef.c
+     1>..\..\g7221\encode\sam2coef.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\code\pjproject-2.7.1\third_party\g7221\common\tables.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libg7221codec-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libg7221codec-x86_64-x64-vc14-Release\basic_op.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\common.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\huff_tab.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\tables.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\coef2sam.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\dct4_s.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\decoder.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\dct4_a.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\encoder.obj"
+         ".\output\libg7221codec-x86_64-x64-vc14-Release\sam2coef.obj"
+         libg7221codec.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\g7221\..\..\lib\libg7221codec-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libg7221codec-x86_64-x64-vc14-Release.bsc" ".\output\libg7221codec-x86_64-x64-vc14-Release\basic_op.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\common.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\huff_tab.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\tables.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\coef2sam.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\dct4_s.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\decoder.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\dct4_a.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\encoder.sbr" ".\output\libg7221codec-x86_64-x64-vc14-Release\sam2coef.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\g7221\libg7221codec.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.45

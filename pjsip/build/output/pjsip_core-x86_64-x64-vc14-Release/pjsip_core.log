@@ -1,0 +1,71 @@
+﻿生成启动时间为 2018/1/9 15:50:40。
+     1>项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_core.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjsip_core-x86_64-x64-vc14-Release\\" /Fd".\output\pjsip_core-x86_64-x64-vc14-Release\pjsip_core.pdb" /FR".\output\pjsip_core-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\src\pjsip\sip_auth_aka.c ..\src\pjsip\sip_auth_client.c ..\src\pjsip\sip_auth_msg.c ..\src\pjsip\sip_auth_parser.c ..\src\pjsip\sip_auth_server.c ..\src\pjsip\sip_config.c ..\src\pjsip\sip_dialog.c ..\src\pjsip\sip_endpoint.c ..\src\pjsip\sip_errno.c ..\src\pjsip\sip_msg.c ..\src\pjsip\sip_multipart.c ..\src\pjsip\sip_parser.c ..\src\pjsip\sip_resolve.c ..\src\pjsip\sip_tel_uri.c ..\src\pjsip\sip_transaction.c ..\src\pjsip\sip_transport.c ..\src\pjsip\sip_transport_loop.c ..\src\pjsip\sip_transport_tcp.c ..\src\pjsip\sip_transport_tls.c ..\src\pjsip\sip_transport_udp.c ..\src\pjsip\sip_ua_layer.c ..\src\pjsip\sip_uri.c ..\src\pjsip\sip_util.c ..\src\pjsip\sip_util_proxy.c ..\src\pjsip\sip_util_statefull.c
+         sip_auth_aka.c
+         sip_auth_client.c
+     1>..\src\pjsip\sip_auth_client.c(550): warning C4102: “TODO___FULL_CLONE_OF_AUTH_CLIENT_SESSION”: 未引用的标签
+         sip_auth_msg.c
+         sip_auth_parser.c
+         sip_auth_server.c
+         sip_config.c
+         sip_dialog.c
+     1>..\src\pjsip\sip_dialog.c(542): warning C4102: “TODO___DIALOG_APP_TIMER”: 未引用的标签
+         sip_endpoint.c
+         sip_errno.c
+         sip_msg.c
+         sip_multipart.c
+         sip_parser.c
+         sip_resolve.c
+     1>..\src\pjsip\sip_resolve.c(393): warning C4102: “TODO___SUPPORT_DNS_NAPTR”: 未引用的标签
+         sip_tel_uri.c
+         sip_transaction.c
+         sip_transport.c
+     1>..\src\pjsip\sip_transport.c(1866): warning C4244: “=”: 从“pj_ssize_t”转换到“int”，可能丢失数据
+         sip_transport_loop.c
+         sip_transport_tcp.c
+         sip_transport_tls.c
+         sip_transport_udp.c
+         正在生成代码...
+         正在编译...
+         sip_ua_layer.c
+         sip_uri.c
+         sip_util.c
+     1>..\src\pjsip\sip_util.c(868): warning C4102: “TODO___SUPPORT_REQUEST_ADDR_RESOLUTION_FOR_TEL_URI”: 未引用的标签
+         sip_util_proxy.c
+         sip_util_statefull.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjsip-core-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_aka.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_client.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_msg.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_parser.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_server.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_config.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_dialog.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_endpoint.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_errno.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_msg.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_multipart.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_parser.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_resolve.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_tel_uri.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transaction.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_loop.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_tcp.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_tls.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_udp.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_ua_layer.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_uri.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_util.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_util_proxy.obj"
+         ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_util_statefull.obj"
+         pjsip_core.vcxproj -> E:\code\pjproject-2.7.1\pjsip\build\..\lib\pjsip-core-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjsip-core-x86_64-x64-vc14-Release.bsc" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_aka.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_client.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_msg.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_parser.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_auth_server.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_config.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_dialog.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_endpoint.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_errno.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_msg.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_multipart.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_parser.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_resolve.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_tel_uri.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transaction.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_loop.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_tcp.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_tls.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_transport_udp.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_ua_layer.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_uri.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_util.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_util_proxy.sbr" ".\output\pjsip_core-x86_64-x64-vc14-Release\sip_util_statefull.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_core.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.12

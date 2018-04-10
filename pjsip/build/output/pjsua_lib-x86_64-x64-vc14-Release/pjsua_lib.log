@@ -1,0 +1,43 @@
+﻿生成启动时间为 2018/1/9 15:50:54。
+     1>项目“E:\code\pjproject-2.7.1\pjsip\build\pjsua_lib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjmedia/include /I"../../pjlib-util/include" /I../../pjlib/include /I../../pjnath/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjsua_lib-x86_64-x64-vc14-Release\\" /Fd".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_lib.pdb" /FR".\output\pjsua_lib-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt "..\src\pjsua-lib\pjsua_acc.c" "..\src\pjsua-lib\pjsua_aud.c" "..\src\pjsua-lib\pjsua_call.c" "..\src\pjsua-lib\pjsua_core.c" "..\src\pjsua-lib\pjsua_dump.c" "..\src\pjsua-lib\pjsua_im.c" "..\src\pjsua-lib\pjsua_media.c" "..\src\pjsua-lib\pjsua_pres.c" "..\src\pjsua-lib\pjsua_vid.c"
+         pjsua_acc.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pjsua_aud.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pjsua_call.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\src\pjsua-lib\pjsua_call.c(3849): warning C4102: “TODO___HANDLE_FORKED_DIALOG”: 未引用的标签
+         pjsua_core.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\src\pjsua-lib\pjsua_core.c(2634): warning C4102: “TODO___pjsua_transport_set_enable”: 未引用的标签
+         pjsua_dump.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pjsua_im.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pjsua_media.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pjsua_pres.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         pjsua_vid.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjsua-lib-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_acc.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_aud.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_call.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_core.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_dump.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_im.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_media.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_pres.obj"
+         ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_vid.obj"
+         pjsua_lib.vcxproj -> E:\code\pjproject-2.7.1\pjsip\build\..\lib\pjsua-lib-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjsua-lib-x86_64-x64-vc14-Release.bsc" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_acc.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_aud.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_call.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_core.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_dump.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_im.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_media.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_pres.sbr" ".\output\pjsua_lib-x86_64-x64-vc14-Release\pjsua_vid.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip\build\pjsua_lib.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.07

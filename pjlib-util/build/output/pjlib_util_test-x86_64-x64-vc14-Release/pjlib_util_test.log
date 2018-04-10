@@ -1,0 +1,53 @@
+﻿生成启动时间为 2018/1/10 17:17:57。
+     1>项目“E:\code\pjproject-2.7.1\pjlib-util\build\pjlib_util_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _CONSOLE /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjlib_util_test-x86_64-x64-vc14-Release\\" /Fd".\output\pjlib_util_test-x86_64-x64-vc14-Release\vc140.pdb" /FR".\output\pjlib_util_test-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt "..\src\pjlib-util-test\encryption.c" "..\src\pjlib-util-test\http_client.c" "..\src\pjlib-util-test\json_test.c" "..\src\pjlib-util-test\main.c" "..\src\pjlib-util-test\resolver_test.c" "..\src\pjlib-util-test\stun.c" "..\src\pjlib-util-test\test.c" "..\src\pjlib-util-test\xml.c"
+         encryption.c
+         http_client.c
+         json_test.c
+         main.c
+         resolver_test.c
+         stun.c
+         test.c
+         xml.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\pjlib-util-test-x86_64-x64-vc14-Release.exe" /INCREMENTAL:NO /NOLOGO netapi32.lib mswsock.lib ws2_32.lib odbc32.lib odbccp32.lib oleaut32.lib ole32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\pjlib-util-test-x86_64-x64-vc14-Release.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\pjlib-util-test-x86_64-x64-vc14-Release.lib" /MACHINE:X64 ".\output\pjlib_util_test-x86_64-x64-vc14-Release\encryption.obj"
+         ".\output\pjlib_util_test-x86_64-x64-vc14-Release\http_client.obj"
+         ".\output\pjlib_util_test-x86_64-x64-vc14-Release\json_test.obj"
+         ".\output\pjlib_util_test-x86_64-x64-vc14-Release\main.obj"
+         ".\output\pjlib_util_test-x86_64-x64-vc14-Release\resolver_test.obj"
+         ".\output\pjlib_util_test-x86_64-x64-vc14-Release\stun.obj"
+         ".\output\pjlib_util_test-x86_64-x64-vc14-Release\test.obj"
+         ".\output\pjlib_util_test-x86_64-x64-vc14-Release\xml.obj"
+         "E:\code\pjproject-2.7.1\pjlib-util\lib\pjlib-util-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjlib\lib\pjlib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-audiodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-videodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjnath\lib\pjnath-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-core-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-simple-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-ua-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua2-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libbaseclasses-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libg7221codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libgsmcodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libilbccodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libmilenage-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libresample-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libspeex-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libsrtp-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libwebrtc-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libyuv-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\lib\libpjproject-x86_64-x64-vc14-Release.lib"
+         pjlib_util_test.vcxproj -> E:\code\pjproject-2.7.1\pjlib-util\build\..\bin\pjlib-util-test-x86_64-x64-vc14-Release.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\bin\pjlib-util-test-x86_64-x64-vc14-Release.bsc" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\encryption.sbr" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\http_client.sbr" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\json_test.sbr" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\main.sbr" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\resolver_test.sbr" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\stun.sbr" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\test.sbr" ".\output\pjlib_util_test-x86_64-x64-vc14-Release\xml.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjlib-util\build\pjlib_util_test.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.58

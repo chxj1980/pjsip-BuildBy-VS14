@@ -1,0 +1,110 @@
+﻿生成启动时间为 2018/1/9 18:20:55。
+     1>项目“E:\code\pjproject-2.7.1\pjlib\build\pjlib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjlib-x86_64-x64-vc14-Release-Static\\" /Fd".\output\pjlib-x86_64-x64-vc14-Release-Static\pjlib.pdb" /FR".\output\pjlib-x86_64-x64-vc14-Release-Static\\" /Gd /TC /errorReport:prompt ..\src\pj\activesock.c ..\src\pj\addr_resolv_sock.c ..\src\pj\array.c ..\src\pj\config.c ..\src\pj\ctype.c ..\src\pj\errno.c ..\src\pj\except.c ..\src\pj\fifobuf.c ..\src\pj\file_access_win32.c ..\src\pj\file_io_win32.c ..\src\pj\guid.c ..\src\pj\guid_win32.c ..\src\pj\hash.c ..\src\pj\ioqueue_select.c ..\src\pj\ip_helper_win32.c ..\src\pj\list.c ..\src\pj\lock.c ..\src\pj\log.c ..\src\pj\log_writer_stdout.c ..\src\pj\os_core_win32.c ..\src\pj\os_error_win32.c ..\src\pj\os_info.c ..\src\pj\os_timestamp_common.c ..\src\pj\os_timestamp_win32.c ..\src\pj\os_time_win32.c ..\src\pj\pool.c ..\src\pj\pool_buf.c ..\src\pj\pool_caching.c ..\src\pj\pool_dbg.c ..\src\pj\pool_policy_malloc.c ..\src\pj\rand.c ..\src\pj\rbtree.c ..\src\pj\sock_bsd.c ..\src\pj\sock_common.c ..\src\pj\sock_qos_bsd.c ..\src\pj\sock_qos_common.c ..\src\pj\sock_qos_dummy.c ..\src\pj\sock_qos_wm.c ..\src\pj\sock_select.c ..\src\pj\ssl_sock_common.c ..\src\pj\ssl_sock_dump.c ..\src\pj\ssl_sock_ossl.c ..\src\pj\string.c ..\src\pj\timer.c ..\src\pj\types.c ..\src\pj\unicode_win32.c
+         activesock.c
+         addr_resolv_sock.c
+         array.c
+         config.c
+         ctype.c
+         errno.c
+         except.c
+         fifobuf.c
+         file_access_win32.c
+         file_io_win32.c
+         guid.c
+         guid_win32.c
+         hash.c
+         ioqueue_select.c
+         ip_helper_win32.c
+         list.c
+         lock.c
+         log.c
+         log_writer_stdout.c
+         os_core_win32.c
+         正在生成代码...
+         正在编译...
+         os_error_win32.c
+         os_info.c
+         os_timestamp_common.c
+         os_timestamp_win32.c
+         os_time_win32.c
+         pool.c
+         pool_buf.c
+         pool_caching.c
+         pool_dbg.c
+         pool_policy_malloc.c
+         rand.c
+         rbtree.c
+         sock_bsd.c
+         sock_common.c
+         sock_qos_bsd.c
+         sock_qos_common.c
+         sock_qos_dummy.c
+         sock_qos_wm.c
+         sock_select.c
+         ssl_sock_common.c
+         正在生成代码...
+         正在编译...
+         ssl_sock_dump.c
+         ssl_sock_ossl.c
+         string.c
+         timer.c
+         types.c
+         unicode_win32.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjlib-x86_64-x64-vc14-Release-Static.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjlib-x86_64-x64-vc14-Release-Static\activesock.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\addr_resolv_sock.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\array.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\config.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\ctype.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\errno.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\except.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\fifobuf.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\file_access_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\file_io_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\guid.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\guid_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\hash.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\ioqueue_select.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\ip_helper_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\list.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\lock.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\log.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\log_writer_stdout.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_core_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_error_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_info.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_timestamp_common.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_timestamp_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_time_win32.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_buf.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_caching.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_dbg.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_policy_malloc.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\rand.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\rbtree.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_bsd.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_common.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_bsd.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_common.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_dummy.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_wm.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_select.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\ssl_sock_common.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\ssl_sock_dump.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\ssl_sock_ossl.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\string.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\timer.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\types.obj"
+         ".\output\pjlib-x86_64-x64-vc14-Release-Static\unicode_win32.obj"
+         pjlib.vcxproj -> E:\code\pjproject-2.7.1\pjlib\build\..\lib\pjlib-x86_64-x64-vc14-Release-Static.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjlib-x86_64-x64-vc14-Release-Static.bsc" ".\output\pjlib-x86_64-x64-vc14-Release-Static\activesock.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\addr_resolv_sock.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\array.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\config.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\ctype.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\errno.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\except.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\fifobuf.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\file_access_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\file_io_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\guid.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\guid_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\hash.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\ioqueue_select.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\ip_helper_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\list.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\lock.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\log.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\log_writer_stdout.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_core_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_error_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_info.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_timestamp_common.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_timestamp_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\os_time_win32.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_buf.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_caching.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_dbg.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\pool_policy_malloc.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\rand.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\rbtree.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_bsd.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_common.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_bsd.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_common.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_dummy.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_qos_wm.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\sock_select.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\ssl_sock_common.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\ssl_sock_dump.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\ssl_sock_ossl.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\string.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\timer.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\types.sbr" ".\output\pjlib-x86_64-x64-vc14-Release-Static\unicode_win32.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjlib\build\pjlib.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:12.10

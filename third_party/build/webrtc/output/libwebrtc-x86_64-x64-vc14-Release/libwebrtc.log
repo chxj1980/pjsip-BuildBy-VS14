@@ -1,0 +1,132 @@
+﻿生成启动时间为 2018/1/9 15:51:30。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\webrtc\libwebrtc.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I../../webrtc/src /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D _WINDOWS /D HAVE_CONFIG_H /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libwebrtc-x86_64-x64-vc14-Release\\" /Fd".\output\libwebrtc-x86_64-x64-vc14-Release\libwebrtc.pdb" /FR".\output\libwebrtc-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt /wd4100 /wd4244 /wd4127 ..\..\webrtc\src\webrtc\common_audio\fft4g.c ..\..\webrtc\src\webrtc\common_audio\ring_buffer.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\auto_correlation.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\auto_corr_to_refl_coef.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\complex_bit_reverse.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\complex_fft.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\copy_set_operations.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\cross_correlation.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\division_operations.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\dot_product_with_scale.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\downsample_fast.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\energy.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\filter_ar.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\filter_ar_fast_q12.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\filter_ma_fast_q12.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\get_hanning_window.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\get_scaling_square.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\ilbc_specific_functions.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\levinson_durbin.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\lpc_to_refl_coef.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\min_max_operations.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\randomization_functions.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\real_fft.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\refl_coef_to_lpc.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\resample.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\resample_48khz.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\resample_by_2.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\resample_by_2_internal.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\resample_fractional.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\splitting_filter.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\spl_init.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\spl_sqrt.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\spl_sqrt_floor.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c ..\..\webrtc\src\webrtc\common_audio\signal_processing\vector_scaling_operations.c ..\..\webrtc\src\webrtc\modules\audio_processing\aecm\aecm_core.c ..\..\webrtc\src\webrtc\modules\audio_processing\aecm\aecm_core_c.c ..\..\webrtc\src\webrtc\modules\audio_processing\aecm\echo_control_mobile.c ..\..\webrtc\src\webrtc\modules\audio_processing\aec\aec_core.c ..\..\webrtc\src\webrtc\modules\audio_processing\aec\aec_core_sse2.c ..\..\webrtc\src\webrtc\modules\audio_processing\aec\aec_rdft.c ..\..\webrtc\src\webrtc\modules\audio_processing\aec\aec_rdft_sse2.c ..\..\webrtc\src\webrtc\modules\audio_processing\aec\aec_resampler.c ..\..\webrtc\src\webrtc\modules\audio_processing\aec\echo_cancellation.c ..\..\webrtc\src\webrtc\modules\audio_processing\ns\noise_suppression.c ..\..\webrtc\src\webrtc\modules\audio_processing\ns\noise_suppression_x.c ..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c ..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core_c.c ..\..\webrtc\src\webrtc\modules\audio_processing\ns\ns_core.c ..\..\webrtc\src\webrtc\modules\audio_processing\utility\delay_estimator.c ..\..\webrtc\src\webrtc\modules\audio_processing\utility\delay_estimator_wrapper.c
+         fft4g.c
+         ring_buffer.c
+         auto_correlation.c
+         auto_corr_to_refl_coef.c
+         complex_bit_reverse.c
+         complex_fft.c
+     1>..\..\webrtc\src\webrtc\common_audio\signal_processing\complex_fft.c(169): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+         copy_set_operations.c
+         cross_correlation.c
+         division_operations.c
+         dot_product_with_scale.c
+         downsample_fast.c
+         energy.c
+         filter_ar.c
+         filter_ar_fast_q12.c
+         filter_ma_fast_q12.c
+         get_hanning_window.c
+         get_scaling_square.c
+         ilbc_specific_functions.c
+         levinson_durbin.c
+         lpc_to_refl_coef.c
+         正在生成代码...
+         正在编译...
+         min_max_operations.c
+         randomization_functions.c
+         real_fft.c
+         refl_coef_to_lpc.c
+         resample.c
+         resample_48khz.c
+         resample_by_2.c
+         resample_by_2_internal.c
+         resample_fractional.c
+         splitting_filter.c
+         spl_init.c
+         spl_sqrt.c
+         spl_sqrt_floor.c
+         sqrt_of_one_minus_x_squared.c
+         vector_scaling_operations.c
+         aecm_core.c
+         aecm_core_c.c
+         echo_control_mobile.c
+         aec_core.c
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\aec\aec_core.c(1805): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         aec_core_sse2.c
+         正在生成代码...
+         正在编译...
+         aec_rdft.c
+         aec_rdft_sse2.c
+         aec_resampler.c
+         echo_cancellation.c
+         noise_suppression.c
+         noise_suppression_x.c
+         nsx_core.c
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c(437): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c(446): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c(1372): warning C4267: “-=”: 从“size_t”转换到“int32_t”，可能丢失数据
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c(1409): warning C4267: “*=”: 从“size_t”转换到“int32_t”，可能丢失数据
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c(1625): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c(1643): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\webrtc\src\webrtc\modules\audio_processing\ns\nsx_core.c(1580): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         nsx_core_c.c
+         ns_core.c
+         delay_estimator.c
+         delay_estimator_wrapper.c
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I../../webrtc/src /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D _WINDOWS /D HAVE_CONFIG_H /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libwebrtc-x86_64-x64-vc14-Release\\" /Fd".\output\libwebrtc-x86_64-x64-vc14-Release\libwebrtc.pdb" /FR".\output\libwebrtc-x86_64-x64-vc14-Release\\" /Gd /TP /errorReport:prompt /wd4100 /wd4244 /wd4127 ..\..\webrtc\src\webrtc\system_wrappers\source\cpu_features.cc
+         cpu_features.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libwebrtc-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libwebrtc-x86_64-x64-vc14-Release\fft4g.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\ring_buffer.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\auto_correlation.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\auto_corr_to_refl_coef.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\complex_bit_reverse.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\complex_fft.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\copy_set_operations.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\cross_correlation.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\division_operations.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\dot_product_with_scale.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\downsample_fast.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\energy.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\filter_ar.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\filter_ar_fast_q12.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\filter_ma_fast_q12.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\get_hanning_window.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\get_scaling_square.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\ilbc_specific_functions.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\levinson_durbin.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\lpc_to_refl_coef.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\min_max_operations.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\randomization_functions.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\real_fft.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\refl_coef_to_lpc.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\resample.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_48khz.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_by_2.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_by_2_internal.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_fractional.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\splitting_filter.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\spl_init.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\spl_sqrt.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\spl_sqrt_floor.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\sqrt_of_one_minus_x_squared.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\vector_scaling_operations.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\aecm_core.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\aecm_core_c.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\echo_control_mobile.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_core.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_core_sse2.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_rdft.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_rdft_sse2.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_resampler.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\echo_cancellation.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\noise_suppression.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\noise_suppression_x.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\nsx_core.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\nsx_core_c.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\ns_core.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\delay_estimator.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\delay_estimator_wrapper.obj"
+         ".\output\libwebrtc-x86_64-x64-vc14-Release\cpu_features.obj"
+         libwebrtc.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\webrtc\..\..\lib\libwebrtc-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libwebrtc-x86_64-x64-vc14-Release.bsc" ".\output\libwebrtc-x86_64-x64-vc14-Release\fft4g.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\ring_buffer.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\auto_correlation.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\auto_corr_to_refl_coef.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\complex_bit_reverse.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\complex_fft.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\copy_set_operations.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\cross_correlation.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\division_operations.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\dot_product_with_scale.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\downsample_fast.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\energy.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\filter_ar.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\filter_ar_fast_q12.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\filter_ma_fast_q12.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\get_hanning_window.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\get_scaling_square.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\ilbc_specific_functions.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\levinson_durbin.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\lpc_to_refl_coef.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\min_max_operations.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\randomization_functions.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\real_fft.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\refl_coef_to_lpc.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\resample.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_48khz.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_by_2.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_by_2_internal.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\resample_fractional.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\splitting_filter.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\spl_init.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\spl_sqrt.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\spl_sqrt_floor.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\sqrt_of_one_minus_x_squared.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\vector_scaling_operations.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\aecm_core.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\aecm_core_c.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\echo_control_mobile.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_core.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_core_sse2.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_rdft.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_rdft_sse2.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\aec_resampler.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\echo_cancellation.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\noise_suppression.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\noise_suppression_x.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\nsx_core.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\nsx_core_c.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\ns_core.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\delay_estimator.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\delay_estimator_wrapper.sbr" ".\output\libwebrtc-x86_64-x64-vc14-Release\cpu_features.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\webrtc\libwebrtc.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.53

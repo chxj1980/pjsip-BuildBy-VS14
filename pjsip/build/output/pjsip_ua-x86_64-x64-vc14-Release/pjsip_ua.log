@@ -1,0 +1,28 @@
+﻿生成启动时间为 2018/1/9 15:50:47。
+     1>项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_ua.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjmedia/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjsip_ua-x86_64-x64-vc14-Release\\" /Fd".\output\pjsip_ua-x86_64-x64-vc14-Release\pjsip_ua.pdb" /FR".\output\pjsip_ua-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt "..\src\pjsip-ua\sip_100rel.c" "..\src\pjsip-ua\sip_inv.c" "..\src\pjsip-ua\sip_reg.c" "..\src\pjsip-ua\sip_replaces.c" "..\src\pjsip-ua\sip_timer.c" "..\src\pjsip-ua\sip_xfer.c"
+         sip_100rel.c
+         sip_inv.c
+         sip_reg.c
+         sip_replaces.c
+     1>..\src\pjsip-ua\sip_replaces.c(167): warning C4102: “TODO___provide_initialized_flag_for_each_endpoint”: 未引用的标签
+         sip_timer.c
+     1>..\src\pjsip-ua\sip_timer.c(548): warning C4102: “TODO___provide_initialized_flag_for_each_endpoint”: 未引用的标签
+         sip_xfer.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjsip-ua-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_100rel.obj"
+         ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_inv.obj"
+         ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_reg.obj"
+         ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_replaces.obj"
+         ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_timer.obj"
+         ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_xfer.obj"
+         pjsip_ua.vcxproj -> E:\code\pjproject-2.7.1\pjsip\build\..\lib\pjsip-ua-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjsip-ua-x86_64-x64-vc14-Release.bsc" ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_100rel.sbr" ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_inv.sbr" ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_reg.sbr" ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_replaces.sbr" ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_timer.sbr" ".\output\pjsip_ua-x86_64-x64-vc14-Release\sip_xfer.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_ua.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.45

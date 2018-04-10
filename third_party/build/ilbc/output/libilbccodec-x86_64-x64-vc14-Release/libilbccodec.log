@@ -1,0 +1,62 @@
+﻿生成启动时间为 2018/1/9 15:51:05。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\ilbc\libilbccodec.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libilbccodec-x86_64-x64-vc14-Release\\" /Fd".\output\libilbccodec-x86_64-x64-vc14-Release\libilbccodec.pdb" /FR".\output\libilbccodec-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\..\ilbc\anaFilter.c ..\..\ilbc\constants.c ..\..\ilbc\createCB.c ..\..\ilbc\doCPLC.c ..\..\ilbc\enhancer.c ..\..\ilbc\filter.c ..\..\ilbc\FrameClassify.c ..\..\ilbc\gainquant.c ..\..\ilbc\getCBvec.c ..\..\ilbc\helpfun.c ..\..\ilbc\hpInput.c ..\..\ilbc\hpOutput.c ..\..\ilbc\iCBConstruct.c ..\..\ilbc\iCBSearch.c ..\..\ilbc\iLBC_decode.c ..\..\ilbc\iLBC_encode.c ..\..\ilbc\LPCdecode.c ..\..\ilbc\LPCencode.c ..\..\ilbc\lsf.c ..\..\ilbc\packing.c ..\..\ilbc\StateConstructW.c ..\..\ilbc\StateSearchW.c ..\..\ilbc\syntFilter.c
+         anaFilter.c
+         constants.c
+         createCB.c
+         doCPLC.c
+         enhancer.c
+         filter.c
+         FrameClassify.c
+         gainquant.c
+         getCBvec.c
+         helpfun.c
+         hpInput.c
+         hpOutput.c
+         iCBConstruct.c
+         iCBSearch.c
+         iLBC_decode.c
+         iLBC_encode.c
+         LPCdecode.c
+         LPCencode.c
+         lsf.c
+         packing.c
+         正在生成代码...
+         正在编译...
+         StateConstructW.c
+         StateSearchW.c
+         syntFilter.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libilbccodec-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libilbccodec-x86_64-x64-vc14-Release\anaFilter.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\constants.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\createCB.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\doCPLC.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\enhancer.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\filter.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\FrameClassify.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\gainquant.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\getCBvec.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\helpfun.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\hpInput.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\hpOutput.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\iCBConstruct.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\iCBSearch.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\iLBC_decode.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\iLBC_encode.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\LPCdecode.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\LPCencode.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\lsf.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\packing.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\StateConstructW.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\StateSearchW.obj"
+         ".\output\libilbccodec-x86_64-x64-vc14-Release\syntFilter.obj"
+         libilbccodec.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\ilbc\..\..\lib\libilbccodec-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libilbccodec-x86_64-x64-vc14-Release.bsc" ".\output\libilbccodec-x86_64-x64-vc14-Release\anaFilter.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\constants.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\createCB.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\doCPLC.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\enhancer.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\filter.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\FrameClassify.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\gainquant.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\getCBvec.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\helpfun.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\hpInput.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\hpOutput.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\iCBConstruct.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\iCBSearch.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\iLBC_decode.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\iLBC_encode.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\LPCdecode.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\LPCencode.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\lsf.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\packing.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\StateConstructW.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\StateSearchW.sbr" ".\output\libilbccodec-x86_64-x64-vc14-Release\syntFilter.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\ilbc\libilbccodec.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.35

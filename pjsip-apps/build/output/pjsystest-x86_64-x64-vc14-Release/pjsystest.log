@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/1/9 15:52:07。
+     1>项目“E:\code\pjproject-2.7.1\pjsip-apps\build\pjsystest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../../pjsip/include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjmedia/include /I../../pjnath/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _CONSOLE /D NDEBUG /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjsystest-x86_64-x64-vc14-Release\\" /Fd".\output\pjsystest-x86_64-x64-vc14-Release\vc140.pdb" /FR".\output\pjsystest-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\src\pjsystest\main_console.c ..\src\pjsystest\systest.c
+         main_console.c
+         systest.c
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\pjsystest-x86_64-x64-vc14-Release.exe" /INCREMENTAL:NO /NOLOGO Iphlpapi.lib dsound.lib dxguid.lib netapi32.lib mswsock.lib ws2_32.lib odbc32.lib odbccp32.lib ole32.lib user32.lib gdi32.lib advapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\pjsystest-x86_64-x64-vc14-Release.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\pjsystest-x86_64-x64-vc14-Release.lib" /MACHINE:X64 ".\output\pjsystest-x86_64-x64-vc14-Release\main_console.obj"
+         ".\output\pjsystest-x86_64-x64-vc14-Release\systest.obj"
+         "E:\code\pjproject-2.7.1\pjlib-util\lib\pjlib-util-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjlib\lib\pjlib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-audiodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-videodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjnath\lib\pjnath-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-core-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-simple-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-ua-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua2-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libbaseclasses-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libg7221codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libgsmcodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libilbccodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libmilenage-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libresample-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libspeex-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libsrtp-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libwebrtc-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libyuv-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\lib\libpjproject-x86_64-x64-vc14-Release.lib"
+         pjsystest.vcxproj -> E:\code\pjproject-2.7.1\pjsip-apps\build\..\bin\pjsystest-x86_64-x64-vc14-Release.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\bin\pjsystest-x86_64-x64-vc14-Release.bsc" ".\output\pjsystest-x86_64-x64-vc14-Release\main_console.sbr" ".\output\pjsystest-x86_64-x64-vc14-Release\systest.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip-apps\build\pjsystest.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.57

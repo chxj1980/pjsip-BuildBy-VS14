@@ -1,0 +1,34 @@
+﻿生成启动时间为 2018/1/9 15:51:09。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\baseclasses\libbaseclasses.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I../../baseclasses /I../../../pjmedia/include /I../../../pjlib/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D _WIN32_DCOM /D WINVER=0x400 /D NDEBUG /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libbaseclasses-x86_64-x64-vc14-Release\\" /Fd".\output\libbaseclasses-x86_64-x64-vc14-Release\libbaseclasses.pdb" /FR".\output\libbaseclasses-x86_64-x64-vc14-Release\\" /Gd /TP /errorReport:prompt ..\..\BaseClasses\amfilter.cpp ..\..\BaseClasses\amvideo.cpp ..\..\BaseClasses\arithutil.cpp ..\..\BaseClasses\combase.cpp ..\..\BaseClasses\ctlutil.cpp ..\..\BaseClasses\mtype.cpp ..\..\BaseClasses\renbase.cpp ..\..\BaseClasses\wxdebug.cpp ..\..\BaseClasses\wxlist.cpp ..\..\BaseClasses\wxutil.cpp
+         amfilter.cpp
+         amvideo.cpp
+         arithutil.cpp
+         combase.cpp
+         ctlutil.cpp
+         mtype.cpp
+         renbase.cpp
+         wxdebug.cpp
+         wxlist.cpp
+         wxutil.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libbaseclasses-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libbaseclasses-x86_64-x64-vc14-Release\amfilter.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\amvideo.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\arithutil.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\combase.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\ctlutil.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\mtype.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\renbase.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\wxdebug.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\wxlist.obj"
+         ".\output\libbaseclasses-x86_64-x64-vc14-Release\wxutil.obj"
+         libbaseclasses.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\baseclasses\..\..\lib\libbaseclasses-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libbaseclasses-x86_64-x64-vc14-Release.bsc" ".\output\libbaseclasses-x86_64-x64-vc14-Release\amfilter.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\amvideo.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\arithutil.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\combase.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\ctlutil.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\mtype.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\renbase.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\wxdebug.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\wxlist.sbr" ".\output\libbaseclasses-x86_64-x64-vc14-Release\wxutil.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\baseclasses\libbaseclasses.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.94

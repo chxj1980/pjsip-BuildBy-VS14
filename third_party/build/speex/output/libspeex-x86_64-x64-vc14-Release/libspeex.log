@@ -1,0 +1,80 @@
+﻿生成启动时间为 2018/1/9 15:50:26。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\speex\libspeex.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I. /I../../speex/include /I../../../pjlib/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D _WINDOWS /D HAVE_CONFIG_H /D WIN32 /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libspeex-x86_64-x64-vc14-Release\\" /Fd".\output\libspeex-x86_64-x64-vc14-Release\libspeex.pdb" /FR".\output\libspeex-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\..\speex\libspeex\bits.c ..\..\speex\libspeex\cb_search.c ..\..\speex\libspeex\fftwrap.c ..\..\speex\libspeex\filterbank.c ..\..\speex\libspeex\filters.c ..\..\speex\libspeex\kiss_fft.c ..\..\speex\libspeex\kiss_fftr.c ..\..\speex\libspeex\lpc.c ..\..\speex\libspeex\lsp.c ..\..\speex\libspeex\ltp.c ..\..\speex\libspeex\mdf.c ..\..\speex\libspeex\modes.c ..\..\speex\libspeex\modes_wb.c ..\..\speex\libspeex\nb_celp.c ..\..\speex\libspeex\preprocess.c ..\..\speex\libspeex\quant_lsp.c ..\..\speex\libspeex\resample.c ..\..\speex\libspeex\sb_celp.c ..\..\speex\libspeex\smallft.c ..\..\speex\libspeex\speex.c ..\..\speex\libspeex\speex_callbacks.c ..\..\speex\libspeex\speex_header.c ..\..\speex\libspeex\stereo.c ..\..\speex\libspeex\vbr.c ..\..\speex\libspeex\vq.c ..\..\speex\libspeex\window.c
+         bits.c
+         cb_search.c
+         fftwrap.c
+         filterbank.c
+         filters.c
+         kiss_fft.c
+         kiss_fftr.c
+         lpc.c
+         lsp.c
+         ltp.c
+         mdf.c
+         modes.c
+         modes_wb.c
+         nb_celp.c
+         preprocess.c
+         quant_lsp.c
+         resample.c
+         sb_celp.c
+         smallft.c
+         speex.c
+         正在生成代码...
+         正在编译...
+         speex_callbacks.c
+         speex_header.c
+         stereo.c
+         vbr.c
+         vq.c
+         window.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libspeex-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libspeex-x86_64-x64-vc14-Release\bits.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\cb_search.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\exc_10_16_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\exc_10_32_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\exc_20_32_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\exc_5_256_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\exc_5_64_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\exc_8_128_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\fftwrap.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\filterbank.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\filters.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\gain_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\gain_table_lbr.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\hexc_10_32_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\hexc_table.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\high_lsp_tables.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\kiss_fft.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\kiss_fftr.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\lpc.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\lsp.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\lsp_tables_nb.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\ltp.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\mdf.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\modes.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\modes_wb.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\nb_celp.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\preprocess.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\quant_lsp.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\resample.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\sb_celp.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\smallft.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\speex.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\speex_callbacks.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\speex_header.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\stereo.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\vbr.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\vq.obj"
+         ".\output\libspeex-x86_64-x64-vc14-Release\window.obj"
+         libspeex.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\speex\..\..\lib\libspeex-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libspeex-x86_64-x64-vc14-Release.bsc" ".\output\libspeex-x86_64-x64-vc14-Release\bits.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\cb_search.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\exc_10_16_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\exc_10_32_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\exc_20_32_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\exc_5_256_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\exc_5_64_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\exc_8_128_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\fftwrap.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\filterbank.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\filters.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\gain_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\gain_table_lbr.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\hexc_10_32_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\hexc_table.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\high_lsp_tables.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\kiss_fft.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\kiss_fftr.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\lpc.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\lsp.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\lsp_tables_nb.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\ltp.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\mdf.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\modes.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\modes_wb.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\nb_celp.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\preprocess.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\quant_lsp.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\resample.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\sb_celp.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\smallft.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\speex.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\speex_callbacks.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\speex_header.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\stereo.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\vbr.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\vq.sbr" ".\output\libspeex-x86_64-x64-vc14-Release\window.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\speex\libspeex.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.36

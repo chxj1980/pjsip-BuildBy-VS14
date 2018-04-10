@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/1/9 15:50:35。
+     1>项目“E:\code\pjproject-2.7.1\third_party\build\milenage\libmilenage.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../../../pjlib/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libmilenage-x86_64-x64-vc14-Release\\" /Fd".\output\libmilenage-x86_64-x64-vc14-Release\libmilenage.pdb" /FR".\output\libmilenage-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\..\milenage\rijndael.c
+         rijndael.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libmilenage-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libmilenage-x86_64-x64-vc14-Release\milenage.obj"
+         ".\output\libmilenage-x86_64-x64-vc14-Release\rijndael.obj"
+         libmilenage.vcxproj -> E:\code\pjproject-2.7.1\third_party\build\milenage\..\..\lib\libmilenage-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libmilenage-x86_64-x64-vc14-Release.bsc" ".\output\libmilenage-x86_64-x64-vc14-Release\milenage.sbr" ".\output\libmilenage-x86_64-x64-vc14-Release\rijndael.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\third_party\build\milenage\libmilenage.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.51

@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/1/9 15:51:37。
+     1>项目“E:\code\pjproject-2.7.1\pjsip-apps\build\libpjproject.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\libpjproject-x86_64-x64-vc14-Release\\" /Fd".\output\libpjproject-x86_64-x64-vc14-Release\libpjproject.pdb" /FR".\output\libpjproject-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt dummy.c
+         dummy.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\..\lib\libpjproject-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\libpjproject-x86_64-x64-vc14-Release\dummy.obj"
+         "E:\code\pjproject-2.7.1\pjlib-util\lib\pjlib-util-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjlib\lib\pjlib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-audiodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjmedia\lib\pjmedia-videodev-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjnath\lib\pjnath-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-core-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-simple-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsip-ua-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua2-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\pjsip\lib\pjsua-lib-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libbaseclasses-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libg7221codec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libgsmcodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libilbccodec-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libmilenage-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libresample-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libspeex-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libsrtp-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libwebrtc-x86_64-x64-vc14-Release.lib"
+         "E:\code\pjproject-2.7.1\third_party\lib\libyuv-x86_64-x64-vc14-Release.lib"
+         libpjproject.vcxproj -> E:\code\pjproject-2.7.1\pjsip-apps\build\..\..\lib\libpjproject-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\..\lib\libpjproject-x86_64-x64-vc14-Release.bsc" ".\output\libpjproject-x86_64-x64-vc14-Release\dummy.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip-apps\build\libpjproject.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.73

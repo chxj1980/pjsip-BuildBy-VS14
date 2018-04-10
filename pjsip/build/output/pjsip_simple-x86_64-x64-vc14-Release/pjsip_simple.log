@@ -1,0 +1,36 @@
+﻿生成启动时间为 2018/1/9 15:50:45。
+     1>项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_simple.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I"../../pjlib-util/include" /I../../pjlib/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjsip_simple-x86_64-x64-vc14-Release\\" /Fd".\output\pjsip_simple-x86_64-x64-vc14-Release\pjsip_simple.pdb" /FR".\output\pjsip_simple-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt "..\src\pjsip-simple\errno.c" "..\src\pjsip-simple\evsub.c" "..\src\pjsip-simple\evsub_msg.c" "..\src\pjsip-simple\iscomposing.c" "..\src\pjsip-simple\mwi.c" "..\src\pjsip-simple\pidf.c" "..\src\pjsip-simple\presence.c" "..\src\pjsip-simple\presence_body.c" "..\src\pjsip-simple\publishc.c" "..\src\pjsip-simple\rpid.c" "..\src\pjsip-simple\xpidf.c"
+         errno.c
+         evsub.c
+         evsub_msg.c
+         iscomposing.c
+         mwi.c
+         pidf.c
+         presence.c
+         presence_body.c
+         publishc.c
+         rpid.c
+         xpidf.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjsip-simple-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjsip_simple-x86_64-x64-vc14-Release\errno.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\evsub.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\evsub_msg.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\iscomposing.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\mwi.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\pidf.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\presence.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\presence_body.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\publishc.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\rpid.obj"
+         ".\output\pjsip_simple-x86_64-x64-vc14-Release\xpidf.obj"
+         pjsip_simple.vcxproj -> E:\code\pjproject-2.7.1\pjsip\build\..\lib\pjsip-simple-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjsip-simple-x86_64-x64-vc14-Release.bsc" ".\output\pjsip_simple-x86_64-x64-vc14-Release\errno.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\evsub.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\evsub_msg.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\iscomposing.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\mwi.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\pidf.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\presence.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\presence_body.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\publishc.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\rpid.sbr" ".\output\pjsip_simple-x86_64-x64-vc14-Release\xpidf.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip\build\pjsip_simple.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.66

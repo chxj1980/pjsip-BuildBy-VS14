@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/1/9 15:51:10。
+     1>项目“E:\code\pjproject-2.7.1\pjsip\build\pjsua2_lib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjmedia/include /I"../../pjlib-util/include" /I../../pjlib/include /I../../pjnath/include /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjsua2_lib-x86_64-x64-vc14-Release\\" /Fd".\output\pjsua2_lib-x86_64-x64-vc14-Release\pjsua2_lib.pdb" /FR".\output\pjsua2_lib-x86_64-x64-vc14-Release\\" /Gd /TP /errorReport:prompt ..\src\pjsua2\account.cpp ..\src\pjsua2\call.cpp ..\src\pjsua2\endpoint.cpp ..\src\pjsua2\json.cpp ..\src\pjsua2\media.cpp ..\src\pjsua2\persistent.cpp ..\src\pjsua2\presence.cpp ..\src\pjsua2\siptypes.cpp ..\src\pjsua2\types.cpp
+         account.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         call.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         endpoint.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\src\pjsua2\endpoint.cpp(1084): warning C4800: “pj_bool_t”: 将值强制为布尔值“true”或“false”(性能警告)
+         json.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         media.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         persistent.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         presence.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         siptypes.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         types.cpp
+     1>E:\code\pjproject-2.7.1\pjmedia\include\pjmedia-codec/g7221.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjsua2-lib-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjsua2_lib-x86_64-x64-vc14-Release\account.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\call.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\endpoint.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\json.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\media.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\persistent.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\presence.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\siptypes.obj"
+         ".\output\pjsua2_lib-x86_64-x64-vc14-Release\types.obj"
+         pjsua2_lib.vcxproj -> E:\code\pjproject-2.7.1\pjsip\build\..\lib\pjsua2-lib-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjsua2-lib-x86_64-x64-vc14-Release.bsc" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\account.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\call.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\endpoint.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\json.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\media.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\persistent.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\presence.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\siptypes.sbr" ".\output\pjsua2_lib-x86_64-x64-vc14-Release\types.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjsip\build\pjsua2_lib.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:16.75

@@ -1,0 +1,38 @@
+﻿生成启动时间为 2018/1/9 15:51:00。
+     1>项目“E:\code\pjproject-2.7.1\pjnath\build\pjnath.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /Zi /nologo /W4 /WX- /sdl- /O2 /D _LIB /D NDEBUG /D _MBCS /D WIN64 /D PJ_WIN64=1 /D PJ_M_X86_64=1 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\output\pjnath-x86_64-x64-vc14-Release\\" /Fd".\output\pjnath-x86_64-x64-vc14-Release\pjnath.pdb" /FR".\output\pjnath-x86_64-x64-vc14-Release\\" /Gd /TC /errorReport:prompt ..\src\pjnath\errno.c ..\src\pjnath\ice_session.c ..\src\pjnath\ice_strans.c ..\src\pjnath\nat_detect.c ..\src\pjnath\stun_auth.c ..\src\pjnath\stun_msg.c ..\src\pjnath\stun_msg_dump.c ..\src\pjnath\stun_session.c ..\src\pjnath\stun_sock.c ..\src\pjnath\stun_transaction.c ..\src\pjnath\turn_session.c ..\src\pjnath\turn_sock.c
+         errno.c
+         ice_session.c
+         ice_strans.c
+         nat_detect.c
+         stun_auth.c
+         stun_msg.c
+         stun_msg_dump.c
+         stun_session.c
+         stun_sock.c
+         stun_transaction.c
+         turn_session.c
+         turn_sock.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\lib\pjnath-x86_64-x64-vc14-Release.lib" /NOLOGO /MACHINE:X64 /ignore:4221 ".\output\pjnath-x86_64-x64-vc14-Release\errno.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\ice_session.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\ice_strans.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\nat_detect.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\stun_auth.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\stun_msg.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\stun_msg_dump.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\stun_session.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\stun_sock.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\stun_transaction.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\turn_session.obj"
+         ".\output\pjnath-x86_64-x64-vc14-Release\turn_sock.obj"
+         pjnath.vcxproj -> E:\code\pjproject-2.7.1\pjnath\build\..\lib\pjnath-x86_64-x64-vc14-Release.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjnath-x86_64-x64-vc14-Release.bsc" ".\output\pjnath-x86_64-x64-vc14-Release\errno.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\ice_session.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\ice_strans.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\nat_detect.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\stun_auth.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\stun_msg.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\stun_msg_dump.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\stun_session.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\stun_sock.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\stun_transaction.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\turn_session.sbr" ".\output\pjnath-x86_64-x64-vc14-Release\turn_sock.sbr"
+     1>已完成生成项目“E:\code\pjproject-2.7.1\pjnath\build\pjnath.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.31
